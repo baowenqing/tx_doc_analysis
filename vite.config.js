@@ -10,7 +10,10 @@ export default defineConfig({
     vue(),
     vueJsx(),
   ],
-  base:"./",
+  base:"./", //设置项目的根目录
+  build: {
+    outDir: 'docs' // 打包文件的输出目录
+  },
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
