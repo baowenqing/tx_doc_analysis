@@ -28,7 +28,7 @@ npm run dev
 npm run build
 ```
 
-emoji emoji 代码 commit 说明
+-emoji -emoji- 代码- commit 说明-
 :art: (调色板) :art: 改进代码结构/代码格式
 :zap:(闪电) :zap: 提高性能
 :fire: (火焰) :fire: 移除代码或文件
